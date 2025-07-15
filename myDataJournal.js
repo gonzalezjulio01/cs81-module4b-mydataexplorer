@@ -12,7 +12,7 @@ const weekData = [
   { day: "Sunday", sleepHours: 7.5, screenTime: 2, mood: "rested", caffeineIntake: 0, focusLevel: 9 }
 ];
 
-// 📝 Predictions:
+//  Predictions:
 // I think the most screen time will be on Wednesday (8 hrs)
 // Best focus day will probably be Sunday (focus 9)
 // I think more caffeine might not improve focus — could even hurt it
@@ -74,7 +74,7 @@ function correlateCaffeineToFocus(data) {
   return `Focus with more caffeine: ${avgFocus(highCaffeineDays)}\nFocus with less caffeine: ${avgFocus(lowCaffeineDays)}`;
 }
 
-// 🧪 Output:
+//  Output:
 console.log("Most screen time:", findHighestScreenTime(weekData));
 console.log("Average sleep:", averageSleep(weekData), "hrs");
 console.log("Most frequent mood:", mostFrequentMood(weekData));

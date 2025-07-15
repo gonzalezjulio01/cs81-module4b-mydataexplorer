@@ -1,5 +1,5 @@
 // myDataJournal.js
-// GitHub Repo: https://github.com/your-username/cs81-module4b-mydataexplorer
+// GitHub Repo: https://github.com/gonzalezjulio01/cs81-module4b-mydataexplorer
 
 // Week's personal data
 const weekData = [
